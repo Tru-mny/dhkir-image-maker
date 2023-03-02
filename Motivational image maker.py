@@ -26,7 +26,7 @@ def imageSaver():
     #draw.text(((W-w)/2,(H-h)/2), Textbox.get(),font=font, fill="black")
     draw.text(((W-w)/2, (H-h)/2), Textbox.get(), font=font, fill="black")
     im.show()
-    im.save("Out\{}.png".format(picoutname), "PNG")
+    im.save("Out\{picoutname}.png", "PNG")
 
 
 SaveButton=tk.Button(text="To run the command click me!!",                                 
